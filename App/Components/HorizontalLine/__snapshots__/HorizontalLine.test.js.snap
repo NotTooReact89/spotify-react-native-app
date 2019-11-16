@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a light HorizontalLine correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderBottomWidth": 1,
+        "marginVertical": 6,
+        "width": "100%",
+      },
+      Object {
+        "borderBottomColor": "#000000",
+      },
+      Object {},
+    ]
+  }
+/>
+`;
+
+exports[`should render a light inverse HorizontalLine correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderBottomWidth": 1,
+        "marginVertical": 6,
+        "width": "100%",
+      },
+      Object {
+        "borderBottomColor": "#ffffff",
+      },
+      Object {},
+    ]
+  }
+/>
+`;
+
+exports[`should render a strong HorizontalLine correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderBottomWidth": 1,
+        "marginVertical": 6,
+        "width": "100%",
+      },
+      Object {
+        "borderBottomColor": "#000000",
+      },
+      Object {},
+    ]
+  }
+/>
+`;
+
+exports[`should render a strong inverse HorizontalLine correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderBottomWidth": 1,
+        "marginVertical": 6,
+        "width": "100%",
+      },
+      Object {
+        "borderBottomColor": "#ffffff",
+      },
+      Object {},
+    ]
+  }
+/>
+`;

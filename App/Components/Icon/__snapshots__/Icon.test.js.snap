@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render an icon 1`] = `
+<Image
+  source={
+    Object {
+      "process": [Function],
+    }
+  }
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "resizeMode": "contain",
+      },
+      Object {
+        "height": 24,
+        "width": 24,
+      },
+      Object {},
+    ]
+  }
+  testID="someId"
+/>
+`;
+
+exports[`should render an icon with custom size 1`] = `
+<Image
+  source={
+    Object {
+      "process": [Function],
+    }
+  }
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "resizeMode": "contain",
+      },
+      Object {
+        "height": 14,
+        "width": 14,
+      },
+      Object {},
+    ]
+  }
+  testID="someId"
+/>
+`;
+
+exports[`should render an icon with custom style 1`] = `
+<Image
+  source={
+    Object {
+      "process": [Function],
+    }
+  }
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "resizeMode": "contain",
+      },
+      Object {
+        "height": 24,
+        "width": 24,
+      },
+      Object {
+        "backgroundColor": "purple",
+      },
+    ]
+  }
+  testID="someId"
+/>
+`;

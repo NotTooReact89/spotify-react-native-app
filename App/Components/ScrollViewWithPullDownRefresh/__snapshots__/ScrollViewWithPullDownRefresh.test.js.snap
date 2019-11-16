@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render notification banner when sync fails with error id 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000000",
+      "height": "100%",
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "translateY": -100,
+          },
+        ],
+      }
+    }
+    testID="banner_container"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#008392",
+          "flexDirection": "row",
+          "padding": 20,
+          "zIndex": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "process": [Function],
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "resizeMode": "contain",
+              },
+              Object {
+                "height": 24,
+                "width": 24,
+              },
+              Object {},
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "Lato-Light",
+                "fontSize": 15,
+                "lineHeight": 22.5,
+              },
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              },
+            ]
+          }
+          testID="banner_txtMessage"
+        >
+          There was a problem fetching data. Please try again later.
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "paddingLeft": 40,
+          }
+        }
+        testID="banner_btnClose"
+      >
+        <Image
+          source={
+            Object {
+              "process": [Function],
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "resizeMode": "contain",
+              },
+              Object {
+                "height": 24,
+                "width": 24,
+              },
+              Object {},
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={Object {}}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="handled"
+    keyboardSpace={0}
+    onKeyboardDidHide={[Function]}
+    onKeyboardDidShow={[Function]}
+    onScroll={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+        style={
+          Object {
+            "backgroundColor": "black",
+          }
+        }
+        tintColor="#ffffff"
+      />
+    }
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`render notification banner when sync fails without error id 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000000",
+      "height": "100%",
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "translateY": -100,
+          },
+        ],
+      }
+    }
+    testID="banner_container"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#008392",
+          "flexDirection": "row",
+          "padding": 20,
+          "zIndex": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "process": [Function],
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "resizeMode": "contain",
+              },
+              Object {
+                "height": 24,
+                "width": 24,
+              },
+              Object {},
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "Lato-Light",
+                "fontSize": 15,
+                "lineHeight": 22.5,
+              },
+              Object {
+                "flex": 1,
+                "marginLeft": 20,
+              },
+            ]
+          }
+          testID="banner_txtMessage"
+        >
+          There was a problem fetching data. Please try again later.
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "paddingLeft": 40,
+          }
+        }
+        testID="banner_btnClose"
+      >
+        <Image
+          source={
+            Object {
+              "process": [Function],
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "resizeMode": "contain",
+              },
+              Object {
+                "height": 24,
+                "width": 24,
+              },
+              Object {},
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={Object {}}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="handled"
+    keyboardSpace={0}
+    onKeyboardDidHide={[Function]}
+    onKeyboardDidShow={[Function]}
+    onScroll={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+        style={
+          Object {
+            "backgroundColor": "black",
+          }
+        }
+        tintColor="#ffffff"
+      />
+    }
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`should render loading icon when sync is running 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000000",
+      "height": "100%",
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={Object {}}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="handled"
+    keyboardSpace={0}
+    onKeyboardDidHide={[Function]}
+    onKeyboardDidShow={[Function]}
+    onScroll={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={true}
+        style={
+          Object {
+            "backgroundColor": "black",
+          }
+        }
+        tintColor="#ffffff"
+      />
+    }
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`should render scroll view with pull down to refresh 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000000",
+      "height": "100%",
+      "position": "relative",
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={Object {}}
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="handled"
+    keyboardSpace={0}
+    onKeyboardDidHide={[Function]}
+    onKeyboardDidShow={[Function]}
+    onScroll={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+        style={
+          Object {
+            "backgroundColor": "black",
+          }
+        }
+        tintColor="#ffffff"
+      />
+    }
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View />
+    </View>
+  </RCTScrollView>
+</View>
+`;

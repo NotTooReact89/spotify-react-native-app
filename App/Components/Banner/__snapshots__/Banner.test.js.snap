@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render banner correctly 1`] = `
+<View
+  style={
+    Object {
+      "transform": Array [
+        Object {
+          "translateY": -100,
+        },
+      ],
+    }
+  }
+  testID="test_screen_banner_container"
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#008392",
+        "flexDirection": "row",
+        "padding": 20,
+        "zIndex": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "resizeMode": "contain",
+            },
+            Object {
+              "height": 24,
+              "width": 24,
+            },
+            Object {},
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Lato-Light",
+              "fontSize": 15,
+              "lineHeight": 22.5,
+            },
+            Object {
+              "flex": 1,
+              "marginLeft": 20,
+            },
+          ]
+        }
+        testID="test_screen_banner_txtMessage"
+      >
+        some text
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "paddingLeft": 40,
+        }
+      }
+      testID="test_screen_banner_btnClose"
+    >
+      <Image
+        source={
+          Object {
+            "process": [Function],
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "resizeMode": "contain",
+            },
+            Object {
+              "height": 24,
+              "width": 24,
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
