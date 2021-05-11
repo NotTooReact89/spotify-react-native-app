@@ -30,7 +30,7 @@
     "deep-freeze": "^0.0.1",
     "format-json": "1.0.3",
     "identity-obj-proxy": "3.0.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.21",
     "lodash.debounce": "^4.0.8",
     "moment": "^2.24.0",
     "prop-types": "15.7.2",
